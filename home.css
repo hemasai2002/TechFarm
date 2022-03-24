@@ -1,0 +1,160 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+.navbar{
+  background-image: linear-gradient(to right, #05608d, #033249);
+  padding: 0 !important;
+}
+.navbar-brand
+{
+  height: 50px;
+  padding-top: 0px !important;
+  padding-left: 20px;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 30px !important;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  color: #fff !important;
+  font-weight: 600;
+}
+.nav-button .btn-primary
+{
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ff8038, #d85205);
+}
+#banner
+{
+  background-image: linear-gradient(to right, #05608d, #033249);
+  color: #fff;
+  padding-top: 5%;
+}
+.promo-title
+{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.bottom-img
+{
+  width: 100%;
+}
+/*................services .........*/
+
+#sevices
+{
+  padding: 100px;
+  padding-bottom: 40px !important;
+}
+.service-img
+{
+  width: 200px;
+  margin-top: 100px;
+}
+.services
+{
+  padding: 20px;
+}
+.services h4
+{
+   padding: 5px;
+   margin-top: 25px;
+   text-transform: uppercase;
+}
+.title::before{
+  content:'';
+  background: #033249;
+  height: 5px;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  display: block;
+  transform: translateY(63px);
+}
+#services .btn-primary
+{
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ff8038, #d85205);
+}
+
+/*-----aboutus-------*/
+
+#about-us
+{
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.about-title
+{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20%;
+}
+
+/*--------footer-----*/
+
+#footer
+{
+  background-image: linear-gradient(to right, #05608d, #033249); 
+  color: #fff;
+}
+.footer-img
+{
+  width: 100%;
+}
+.footer-box
+{
+  padding: 40px;
+  
+}
+.footer-us
+{
+  padding-bottom: 40px !important;
+}
+.footer-box .fa
+{
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 4px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #05608d, #033249); 
+}
+hr{
+  background-color: #fff;
+}
+.copy-right
+{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
